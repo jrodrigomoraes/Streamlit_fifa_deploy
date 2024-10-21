@@ -3,7 +3,7 @@
 import streamlit as st
 import webbrowser
 import pandas as pd
-from datetime import
+from datetime import datetime
 
 if 'data' not in st.session_state:
     df_data = pd.read_csv(r'C:\Users\jrodr\Downloads\Asimov\Python Office\Criando Aplicativos Web com Streamlit\Projeto Fifa\datasets\CLEAN_FIFA23_official_data.csv', index_col=0)
